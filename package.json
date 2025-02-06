@@ -1,0 +1,30 @@
+{
+	"name": "mcp-access",
+	"version": "1.0.0",
+	"description": "add extend accessibility to claude desktop app",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"custom-access": "dist/index.js"
+	},
+	"scripts": {
+		"build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\""
+	},
+	"files": ["build"],
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.0.4",
+		"pdfjs-dist": "^4.10.38",
+		"puppeteer": "^23.11.1",
+		"turndown": "^7.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.10.3",
+		"@types/turndown": "^5.0.5",
+		"typescript": "^5.7.2",
+		"zod": "^3.24.1"
+	}
+}
