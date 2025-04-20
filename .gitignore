@@ -1,0 +1,17 @@
+# node
+node_modules
+
+# os/editor
+.DS_Store
+*.swp
+*.swo
+
+# vscode
+.vscode
+
+# logs
+*.log
+
+# others
+.env
+.env.*

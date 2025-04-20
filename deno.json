@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "deno.window"],
+    "strict": false
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "turndown": "npm:turndown",
+    "zod": "npm:zod"
+  }
+}
